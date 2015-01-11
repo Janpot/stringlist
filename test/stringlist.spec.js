@@ -92,5 +92,11 @@ describe('parse', function () {
     });
   });
 
+  it('throws on unclosed quote', function () {
+    assert.throws(function () {
+      stringlist.parse('a, "b", "c, d');
+    });
+  });
+
 
 });
