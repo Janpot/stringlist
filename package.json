@@ -1,0 +1,33 @@
+{
+  "name": "stringlist",
+  "version": "0.0.1",
+  "description": "Parses lists of strings into array.",
+  "main": "lib",
+  "scripts": {
+    "test": "npm run lint && npm run mocha",
+    "mocha": "mocha ./test",
+    "lint": "jshint --reporter node_modules/jshint-stylish/stylish.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://janpot@github.com/Janpot/stringlist.git"
+  },
+  "keywords": [
+    "string",
+    "list",
+    "array",
+    "parse"
+  ],
+  "author": "Jan Potoms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Janpot/stringlist/issues"
+  },
+  "homepage": "https://github.com/Janpot/stringlist",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "jshint": "^2.5.10",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1"
+  }
+}
